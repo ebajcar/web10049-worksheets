@@ -3,11 +3,11 @@
 
 ## Work through the material in Week 1
 
-:wip:
+:construction:
 
 ## Complete the following excercises
 
-:wip:
+:construction:
 
 
 
