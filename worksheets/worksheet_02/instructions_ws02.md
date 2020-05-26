@@ -1,7 +1,7 @@
-# Worksheet 1
+# Worksheet 2
 #### SYST10049 Web Development
 
-## Work through the material in Week 1
+## Work through the material in Week 2
 
 :construction:
 
