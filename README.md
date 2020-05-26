@@ -9,7 +9,7 @@
 the meaning
 - [fig312_4.html](set_a/fig312_4.html)  HTML5 document; showing importance 
 - [fig313_5.html](set_a/fig313_5.html)  HTML5 document; scientific names and foreign words
-- [fig311_4.html](set_a/fig311_4.html)  minimal HTML5 document template 
+- [template.html](set_a/template.html)  minimal HTML5 document template 
 
 # Set B: examples
 
