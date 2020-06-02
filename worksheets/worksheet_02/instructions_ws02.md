@@ -50,7 +50,7 @@
 - [ ] Test using Chrome browser at http://*username*.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name and pathname appropriately).
 - [ ] Validate using *Validate by URI*.
 
-3. Repeat for all the examples from last week
+3. Repeat for every example from last week
     - example01_001.html a basic HTML5 document that renders the phrase “Hello World!”
     - example01_002.html minimal HTML5 document with sample comments, including prologue (header)
     - fig311_1.html HTML5 document; headings and paragraphs
