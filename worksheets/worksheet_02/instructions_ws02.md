@@ -59,7 +59,7 @@
     - fig312_4.html HTML5 document; showing importance
     - fig313_5.html HTML5 document; scientific names and foreign words
 
-
+4. Using nested list or indentation (you can also draw boxes,if you prefer), draw or create outline of your webspace, after completing these exercises (omit other stuff you may have there; I would suggest to move everything to another subdirectory).
 
 
 
