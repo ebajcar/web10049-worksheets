@@ -30,7 +30,7 @@
 
 ## Complete the following excercises
 
-6. Mark up the content of a letter (continued from Worksheet 1).
+1. Mark up the content of a letter (continued from Worksheet 1).
 - [ ] Create a project directory (folder) called `letter` in `C:\public_html\syst10049\`.
 - [ ] Create a file called `index.html` and store it in the root folder of your project.
 - [ ] Create the sub-directories `images` and `css` in the root folder.
@@ -40,7 +40,7 @@
 - [ ] Test using Chrome browser at http://username.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name and pathname appropriately).
 - [ ] Validate using *Validate by URI*.
 
-7. Mark up the content of a memo (continued from Worksheet 1).
+2. Mark up the content of a memo (continued from Worksheet 1).
 - [ ] Create a project directory (folder) called `memo` in `C:\public_html\syst10049\`.
 - [ ] Create a file called `index.html` and store it in the root folder of your project.
 - [ ] Create the sub-directories `images` and `css` in the root folder.
@@ -50,7 +50,14 @@
 - [ ] Test using Chrome browser at http://*username*.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name and pathname appropriately).
 - [ ] Validate using *Validate by URI*.
 
-
+3. Repeat for all the examples from last week
+- example01_001.html a basic HTML5 document that renders the phrase “Hello World!”
+- example01_002.html minimal HTML5 document with sample comments, including prologue (header)
+- fig311_1.html HTML5 document; headings and paragraphs
+- fig312_2.html HTML5 document; emphasizing words and phrases
+- fig312_3.html HTML5 document; show how changing the stress emphasis changes the meaning
+- fig312_4.html HTML5 document; showing importance
+- fig313_5.html HTML5 document; scientific names and foreign words
 
 
 
