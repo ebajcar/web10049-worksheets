@@ -37,7 +37,7 @@
 - [ ] Test your project locally.
 - [ ] Validate your html at `validator.w3.org` using *Validate by Direct Input* tab.
 - [ ] Publish to dev.fast.sheridanc.on.ca in `public_html/syst10049/letter`.
-- [ ] Test using Chrome browser at http://username.dev.fast.sheridanc.on.ca (don't forget to substitute username for your user name).
+- [ ] Test using Chrome browser at http://username.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name and pathname appropriately).
 - [ ] Validate using *Validate by URI*.
 
 7. Mark up the content of a memo (continued from Worksheet 1).
@@ -47,7 +47,7 @@
 - [ ] Test your project locally.
 - [ ] Validate your html at `validator.w3.org` using *Validate by Direct Input* tab.
 - [ ] Publish to dev.fast.sheridanc.on.ca in `public_html/syst10049/memo`.
-- [ ] Test using Chrome browser at http://*username*.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name).
+- [ ] Test using Chrome browser at http://*username*.dev.fast.sheridanc.on.ca/*pathname* (don't forget to substitute username for your user name and pathname appropriately).
 - [ ] Validate using *Validate by URI*.
 
 
