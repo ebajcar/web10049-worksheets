@@ -3,11 +3,11 @@
 
 ## Work through the material in Week 3
 
-:construction:
+Content on SLATE: Week 3. Textual and embedded content
 
 ## Complete the following excercises
 
-:construction:
+Create your own version of all the examples.  For each example, do research, experiment by adding and changing different aspects, add appropriate comments. Find similar examples and analyze what makes them similar or different.
 
 
 
