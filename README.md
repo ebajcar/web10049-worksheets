@@ -13,7 +13,7 @@ the meaning
 
 # Set B: examples
 
-coming soon
+none
 
 # Set C: examples
 
@@ -38,3 +38,6 @@ coming soon
 - [example04_033.html](set_d/example04_033.html) nested list—combination of ordred and unordered lists
 - [example04_036.html](set_d/example04_036.html) description list
 
+# Bird Watching project
+
+[html file](worksheets/worksheet_04.html)
