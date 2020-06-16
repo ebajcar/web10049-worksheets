@@ -27,4 +27,8 @@ coming soon
 # Set D: examples
 
 - [example04_004.html](set_d/example04_004.html) four-by-four table with rowspan and colspan
+- [example04_008.html](set_d/example04_008.html) 3x3 table representing Tic Tac Toe game board
+- [example04_017.html](set_d/example04_017.html) "All about the weather" article containing complex table
+- [example04_023.html](set_d/example04_023.html) unordered list with weather images
+- [example04_024.html](set_d/example04_024.html) nested list of ordered and unordered lists
 
