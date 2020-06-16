@@ -24,4 +24,7 @@ coming soon
 - [example03_018.html](set_c/example03_018.html) single image rendered as figure with long figure caption
 - [example03_040.html](set_c/example03_040.html) a typical web page content layout using HTML5 semantic elements
 
+# Set D: examples
+
+- [example04_004.html](set_d/example04_004.html) four-by-four table with rowspan and colspan
 
