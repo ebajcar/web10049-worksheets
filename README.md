@@ -40,4 +40,4 @@ none
 
 # Bird Watching project
 
-[html file](worksheets/worksheet_04/bird_watching.html)
+[worksheets/worksheet_04/bird_watching.html](worksheets/worksheet_04/bird_watching.html)
