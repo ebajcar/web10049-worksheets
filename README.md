@@ -22,5 +22,6 @@ coming soon
 - [example03_010.html](set_c/example03_010.html) image specifying height and width (aspect ratio)
 - [example03_011.html](set_c/example03_011.html) split image rendered side-by-side as figure with figure caption
 - [example03_018.html](set_c/example03_018.html) single image rendered as figure with long figure caption
+- [example03_040.html](set_c/example03_040.html) a typical web page content layout using HTML5 semantic elements
 
 
