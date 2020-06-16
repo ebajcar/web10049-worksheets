@@ -49,7 +49,7 @@ none
 - [form_elements.html](set_e/form_elements.html) input various types
 - [form_radio.html](set_e/form_radio.html) input type=radio type=checkbox
 - [form_select.html](set_e/form_select.html) select with options and option groups
-- [form_datalist.html](set_e/form_datalist.html) datlist
+- [form_datalist.html](set_e/form_datalist.html) datalist
 
 
 
