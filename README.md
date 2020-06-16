@@ -31,4 +31,10 @@ coming soon
 - [example04_017.html](set_d/example04_017.html) "All about the weather" article containing complex table
 - [example04_023.html](set_d/example04_023.html) unordered list with weather images
 - [example04_024.html](set_d/example04_024.html) nested list of ordered and unordered lists
+- [example04_025.html](set_d/example04_025.html) nested list exploring ol element's start and type attributes
+- [example04_026.html](set_d/example04_026.html) definition list using dl element
+- [example04_031.html](set_d/example04_031.html) ordered lists exploring ol element's start and type attributes
+- [example04_032.html](set_d/example04_032.html) nested unordered list
+- [example04_033.html](set_d/example04_033.html) nested list—combination of ordred and unordered lists
+- [example04_036.html](set_d/example04_036.html) description list
 
