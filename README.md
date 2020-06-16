@@ -44,12 +44,12 @@ none
 
 # Set E: examples
 
-[links_bookmarks.html](set_e/links_bookmarks.html)
-[form_text.html](set_e/form_text.html)
-[form_elements.html](set_e/form_elements.html)
-[form_radio.html](set_e/form_radio.html)
-[form_select.html](set_e/form_select.html)
-[form_datalist.html](set_e/form_datalist.html)
+- [links_bookmarks.html](set_e/links_bookmarks.html)
+- [form_text.html](set_e/form_text.html)
+- [form_elements.html](set_e/form_elements.html)
+- [form_radio.html](set_e/form_radio.html)
+- [form_select.html](set_e/form_select.html)
+- [form_datalist.html](set_e/form_datalist.html)
 
 
 
