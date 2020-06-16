@@ -17,8 +17,10 @@ coming soon
 
 # Set C: examples
 
-- []()
 - [example03_005.html](set_c/example03_005.html) embedded youtube video
 - [example03_006.html](set_c/example03_006.html) embedded spotify media
 - [example03_010.html](set_c/example03_010.html) image specifying height and width (aspect ratio)
+- [example03_011.html](set_c/example03_011.html) split image rendered side-by-side as figure with figure caption
+- [example03_018.html](set_c/example03_018.html) single image rendered as figure with long figure caption
+
 
