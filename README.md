@@ -19,4 +19,4 @@ coming soon
 
 - []()
 - [example03_005.html](set_c/example03_005.html)
-
+- [example03_006.html](set_c/example03_006.html)
