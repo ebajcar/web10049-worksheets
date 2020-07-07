@@ -39,7 +39,7 @@ We want to change the text and background colors, and change the padding, of the
 * 50 pixels padding at the top and bottom
 * 20 pixels padding at the right and left
 
- ##### 4. Choose element(s)
+#### 4. Choose element(s)
 
 We want to select the first paragraph.
 
