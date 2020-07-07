@@ -37,14 +37,40 @@ We want to select the first paragraph.
 
 ### Explore potential solutions
 
+Solution A
+
 ```css
-	
 <p style="color: yellow; 
           background-color: black; 
           padding: 50px 20px;">
 ...
 </p>
 ```
+inline CSS. Avoid using! hard to change (high specificity) and narrow scope (no code re-usability)
+inline (specificity 1000) [6.4.3 Calculating a selector's specificity](https://www.w3.org/TR/2011/REC-CSS2-20110607/cascade.html#q6.0)
+
+---
+
+Solution B
+
+```html
+<style>
+/* CSS rule */
+p {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+</style>
+</head>
+```
+convert to internal styles. Problem: this rule will apply to all paragraphs on the page, not just the first one.
+how do you find the right (and best) selector? try, research, try different things [https://www.w3schools.com/css/css_selectors.asp](https://www.w3schools.com/css/css_selectors.asp)
+specificity [https://www.w3.org/TR/selectors-3/#specificity](https://www.w3.org/TR/selectors-3/#specificity)
+
+
+
+
 
 
 
