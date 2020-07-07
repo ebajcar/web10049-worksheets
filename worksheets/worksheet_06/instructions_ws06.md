@@ -11,6 +11,7 @@
    * [example07_002.html](example07_002.html) - explore color values and units
    * [example07_003.html](example07_003.html) - explore color values and units
    * [example07_010.html](example07_010.html) - explore box model
+   * [explore_font.html](explore_font.html) - explore font properties
 4. Practice!
 
 ## Class Example 51
