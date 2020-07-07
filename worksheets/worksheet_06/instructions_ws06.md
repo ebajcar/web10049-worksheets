@@ -130,8 +130,45 @@ Solution G
 ```
 ---
 
+Solution H
 
+```css
+/* after adding div parent to paragraphs ; specificity 011 */
+p:first-child {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
 
+Solution I
+
+```css
+/* good choice; no additional elements required; low specificity 011 */
+p:nth-child(2) {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution J
+
+```css
+/* best choice; the most descriptive; low specificity 011 */
+p:first-of-type {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution ?
+
+ any other or better choices? 
 
 
 ---
