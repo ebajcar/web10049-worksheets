@@ -68,8 +68,67 @@ convert to internal styles. Problem: this rule will apply to all paragraphs on t
 how do you find the right (and best) selector? try, research, try different things [https://www.w3schools.com/css/css_selectors.asp](https://www.w3schools.com/css/css_selectors.asp)
 specificity [https://www.w3.org/TR/selectors-3/#specificity](https://www.w3.org/TR/selectors-3/#specificity)
 
+---
 
+Solution C
 
+```css
+/* wrong target; first child of body is HEADER */
+p:first-child {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution D
+
+```css
+/* wrong target; first child of paragraph is STRONG */
+p :first-child {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution E
+
+```css
+/* add an id; not very good; high specificity 100 ; larger DOM */
+#one {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution F
+
+```css
+/* over-qualified; there can be only one id="one", increases specificity 101  */
+p#one {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
+
+Solution G
+
+```css
+/* better using classes;  specificity 010; larger DOM */
+.one {
+ background-color: black;
+ color: yellow; 
+ padding: 50px 20px;
+}
+```
+---
 
 
 
