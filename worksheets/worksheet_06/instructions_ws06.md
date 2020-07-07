@@ -1,8 +1,8 @@
 # Worksheet 6
 #### SYST10049 Web Development
 
-## Work through the material in Week 6
-
+1. Work through the material in Week 6
+2. Work through Class example 51. Test and document observations for each potential solution.
 
 
 ## Class Example 51
