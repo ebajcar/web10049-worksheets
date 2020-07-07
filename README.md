@@ -53,7 +53,8 @@ none
 
 # CSS Worksheets
 
-- [Worksheet 6](worksheets/worksheet_06.md)
+- [Worksheet 6](worksheets/worksheet_06/instructions_ws06.md)
+- ...
 
 
 
