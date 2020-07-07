@@ -51,6 +51,9 @@ none
 - [form_select.html](set_e/form_select.html) select with options and option groups
 - [form_datalist.html](set_e/form_datalist.html) datalist
 
+# CSS Worksheets
+
+- [Worksheet 6](worksheets/worksheet_06.md)
 
 
 
