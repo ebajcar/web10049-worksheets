@@ -4,13 +4,13 @@
 1. Work through the material in Week 6
 2. Work through Class example 51. Test and document observations for each potential solution.
 3. Test, observe, document, try to recreate yourself; dig deeper and research properties and values used...
-   * example06_001.html - explore text properties
-   * example06_002.html - explore text properties
-   * example06_021.html - explore different selectors
-   * example07_001.html - explore background properties
-   * example07_002.html - explore color values and units
-   * example07_003.html - explore color values and units
-   * example07_010.html - explore box model
+   * [example06_001.html](example06_001.html) - explore text properties
+   * [example06_002.html](example06_002.html) - explore text properties
+   * [example06_021.html](example06_021.html) - explore different selectors
+   * [example07_001.html](example07_001.html) - explore background properties
+   * [example07_002.html](example07_002.html) - explore color values and units
+   * [example07_003.html](example07_003.html) - explore color values and units
+   * [example07_010.html](example07_010.html) - explore box model
 4. Practice!
 
 ## Class Example 51
