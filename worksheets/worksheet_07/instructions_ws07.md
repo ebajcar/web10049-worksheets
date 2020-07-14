@@ -15,9 +15,13 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
 * [example08_007.html](example08_007.html) - explore containing blocks
 * [example08_008.html](example08_008.html) - explore table (tic tac toe board)
 * [example08_043.html](example08_043.html) - explore table (chess board)
-* [example08_008.html](example08_008.html) - explore 
-* [example08_008.html](example08_008.html) - explore 
-
+* [example08_045.html](example08_045.html) - explore lists (::first-letter, text-decoration, An+B Notation, li:nth-child, ...)
+* [example08_046.html](example08_046.html) - explore lists (font-variant, content,  An+B Notation, li:nth-child, ...)
+* [example08_047.html](example08_047.html) - explore lists (nth-of-type, first-of-type, last-of-type)
+* [example08_055.html](example08_055.html) - explore lists (agenda using dl, dt, dd)
+* [example08_056.html](example08_056.html) - explore lists (dl displayed as table)
+* [example08_058.html](example08_058.html) - explore nested list with image bullets
+* [example08_061.html](example08_061.html) - explore lists (rock-paper-scissors board using dl list)
             
 Practice!
 
