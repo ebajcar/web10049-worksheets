@@ -11,8 +11,6 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
 * [example07_100.html](example07_100.html) - explore styling simple tables
 * [example07_101.html](example07_101.html) - explore styling complex tables
 * [example08_007.html](example08_007.html) - explore containing blocks
-* [example08_007.html](example08_007.html) - explore containing blocks
-* [example08_007.html](example08_007.html) - explore containing blocks
 * [example08_008.html](example08_008.html) - explore table (tic tac toe board)
 * [example08_043.html](example08_043.html) - explore table (chess board)
 * [example08_045.html](example08_045.html) - explore lists (::first-letter, text-decoration, An+B Notation, li:nth-child, ...)
