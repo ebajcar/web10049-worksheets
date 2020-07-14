@@ -10,7 +10,10 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
 * [example07_040.html](example07_040.html) - explore positioning, layers 
 * [example07_100.html](example07_100.html) - explore styling simple tables
 * [example07_101.html](example07_101.html) - explore styling complex tables
-* [example07_040.html](example07_040.html) - explore positioning, layers
+* [example08_007.html](example08_007.html) - explore containing blocks
+* [example08_007.html](example08_007.html) - explore containing blocks
+* [example08_007.html](example08_007.html) - explore containing blocks
+* [example08_008.html](example08_008.html) - explore table (tic tac toe board)
             
 Practice!
 
