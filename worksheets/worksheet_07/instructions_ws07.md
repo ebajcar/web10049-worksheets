@@ -1,15 +1,14 @@
 # Worksheet 7
 #### SYST10049 Web Development
 
-## Work through the material in Week 7
+## Work through the material in Week 8
 
-:construction:
+Test, observe, document, try to recreate yourself; dig deeper and research properties and values used...
+   * [example06_045.html](example06_045.html) - explore positionin, centering a page
+
+4. Practice!
 
 ## Complete the following excercises
-
-:construction:
-
-
 
 
 
