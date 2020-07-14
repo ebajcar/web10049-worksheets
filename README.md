@@ -54,6 +54,7 @@ none
 # CSS Worksheets
 
 - [Worksheet 6](worksheets/worksheet_06/instructions_ws06.md)
+- [Worksheet 7](worksheets/worksheet_07/instructions_ws07.md)
 - ...
 
 
