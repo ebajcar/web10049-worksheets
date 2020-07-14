@@ -14,6 +14,10 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
 * [example08_007.html](example08_007.html) - explore containing blocks
 * [example08_007.html](example08_007.html) - explore containing blocks
 * [example08_008.html](example08_008.html) - explore table (tic tac toe board)
+* [example08_043.html](example08_043.html) - explore table (chess board)
+* [example08_008.html](example08_008.html) - explore 
+* [example08_008.html](example08_008.html) - explore 
+
             
 Practice!
 
