@@ -21,7 +21,7 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
 * [example08_058.html](example08_058.html) - explore nested list with image bullets
 * [example08_061.html](example08_061.html) - explore lists (rock-paper-scissors board using dl list)
             
-Practice!
+Practice! Take the output and try to style it without looking at the answer. 
 
 ## Complete the following excercises
 
