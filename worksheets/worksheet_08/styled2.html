@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example09_010</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+html, body, header, footer, main, nav {
+  box-sizing: border-box;
+}
+/* provide for older technology */
+header, footer, main, nav {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+html, body {
+ width: 100%;
+ margin: auto;
+ font-family: "Lucida Sans", sans-serif;
+}
+header, footer {
+  background-color: #93c;
+  color: #fff;
+  padding: 10px;
+}
+main {
+  padding: 5px;
+  display: flex;
+}
+main > nav {
+  min-width: 10em;
+  order: 3;
+}
+main > article {
+  min-width: 12em;
+  padding: 0 10px;
+  flex: 1;
+  order: 1;
+}
+main > aside {
+  width: 30%;
+  padding: 0 10px;
+  text-align: justify;
+  order: 2;
+}
+@media all and (max-width: 600px) {
+  aside {
+    display: none;
+  }
+}
+@media all and (max-width: 300px) {
+  main {
+    flex-flow: column wrap;
+  }
+  main > nav {
+    order: 1;
+  }
+  main > article {
+    order: 2;
+  }
+  main > aside {
+    display: block;
+    width: 100%;
+    order: 3;
+  }
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: lightblue;
+
+}
+nav li a {
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: #09c;
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Page Heading</h1>
+  </header>
+
+  <main>
+    <nav>
+      <ul>
+        <li><a href="#">Article One</a></li>
+        <li><a href="#">Article Two</a></li>
+        <li><a href="#">Article Three</a></li>
+        <li><a href="#">Article Four</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h1>Article Heading</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum nunc vel arcu tincidunt pharetra. Duis vulputate quis elit in ultrices. Phasellus sit amet leo nibh. In hac habitasse platea dictumst. Suspendisse est elit, fermentum a ornare bibendum, faucibus et eros. Vivamus sit amet sapien semper, congue felis id, posuere eros. Vestibulum vestibulum, lectus quis euismod egestas, libero mauris malesuada ante, vulputate aliquam velit tellus et quam.</p>
+      <p>Sed aliquam id ligula ac bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean auctor neque sed orci efficitur euismod. Maecenas facilisis imperdiet massa at pellentesque. Aliquam erat volutpat. Mauris maximus odio id erat vestibulum, quis consequat dolor eleifend. Integer fermentum et enim nec aliquet.</p>
+    </article>
+    <aside>
+      <h5>Aside Heading</h5>
+      <p>Vivamus in ex neque. Maecenas mauris nisl, consectetur a lacinia accumsan, suscipit vel urna. Praesent porta sem nec nulla auctor, sit amet fringilla justo auctor. Aliquam viverra dignissim orci a blandit. Sed quis ornare ante, non gravida lorem. Etiam id iaculis justo. Etiam id velit luctus, consectetur nunc vel, viverra nunc. Fusce dignissim varius lacus, vel euismod ante varius a. Mauris eu turpis a lacus accumsan pulvinar in sed elit.</p>
+    </aside>		
+  </main>
+    
+  <footer><address>SYST10049 Web Development © Sheridan College</address></footer>
+</body>
+</html>
+
+
+
