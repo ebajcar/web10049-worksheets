@@ -10,11 +10,11 @@ Work through the material in Week 9
 Style the following (as shown in class)
 
 1. [example1.html](example1.html)
-2. [example1.html](example2.html)
-3. [example1.html](example3.html)
-4. [example1.html](example4.html)
+2. [example2.html](example2.html)
+3. [example3.html](example3.html)
+4. [example4.html](example4.html)
 
-
+(solutions available in the same directory)
 
 
 ---
