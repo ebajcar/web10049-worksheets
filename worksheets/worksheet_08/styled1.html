@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nav - step 1</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+html, body {
+  width: 100%;
+  margin: auto;
+}
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+}
+@media all and (max-width: 600px) {
+  nav {
+    justify-content: space-between;
+  }
+}
+@media all and (max-width: 200px) {
+  nav {
+    flex-flow: column wrap;
+  }
+}
+nav a {
+  color: white;
+  display: block;
+  font-size: 1.4em;
+  font-variant: small-caps;
+  padding: 0.4em;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: none;
+}
+nav a.active {
+  background-color: darkorange;
+}
+nav a:hover {
+  background-color: #ff7700;
+}
+</style>
+<body>
+  <header>
+    <h1>Main Title<h1>
+  </header> 
+  <nav>
+    <a class="active" href="#">home</a>
+    <a href="#">cognito</a>
+    <a href="#">ergo</a>
+    <a href="#">sum</a>
+    <a href="#">lorem</a>
+  </nav>
+  <main>
+    <h2>Main content</h2>
+  </main>
+  <footer>
+    <address>Web Development @ Sheridan College</address>
+  </footer>
+</body>
+</html>
+ma
