@@ -54,7 +54,8 @@ none
 # CSS Worksheets
 
 - [Worksheet 6](worksheets/worksheet_06/instructions_ws06.md)
-- [Worksheet 7](worksheets/worksheet_07/instructions_ws07.md)
+- [Worksheet 7](worksheets/worksheet_07/instructions_ws07.md) - styling tables, lists, ...
+- [Worksheet 8](worksheets/worksheet_08/instructions_ws08.md) - using flexbox, grid, media queries, ...
 - ...
 
 
