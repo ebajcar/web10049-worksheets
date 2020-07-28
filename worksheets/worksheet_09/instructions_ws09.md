@@ -1,21 +1,24 @@
-# Worksheet 9
+# Worksheet 8
 #### SYST10049 Web Development
 
-## Work through the material in Week 10
+Work through the material in Week 10
 
-:construction:
+
 
 ## Complete the following excercises
 
-:construction:
+Style the following (as shown in class)
 
+1. [example10_003.html](example10_003.html)
+2. [example2.html](example2.html)
+3. [example3.html](example3.html)
+4. [example4.html](example4.html)
 
-
-
-
+(solutions available in the same directory)
 
 
 ---
 
 > Web Development @ Sheridan College
+
 
