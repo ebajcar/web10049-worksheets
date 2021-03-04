@@ -1,7 +1,7 @@
 # Worksheet 6
 #### SYST10049 Web Development
 
-1. Work through the material in Week 6
+1. Work through the material in [Exercise Set 6]()
 2. Work through Class example 51. Test and document observations for each potential solution.
 3. Test, observe, document, try to recreate yourself; dig deeper and research properties and values used...
    * [example06_001.html](example06_001.html) - explore text properties
@@ -15,6 +15,7 @@
 4. Practice!
 
 ## Class Example 51
+- [example51.html]()
 
 ### Description
 
