@@ -1,4 +1,4 @@
-# Worksheet 7
+# Exercise set 7
 #### SYST10049 Web Development
 
 ## Work through the material in Week 8
@@ -23,7 +23,7 @@ Test, observe, document, try to recreate yourself; dig deeper and research prope
             
 Practice! Take the output and try to style it without looking at the answer. 
 
-## Complete the following excercises
+
 
 
 
