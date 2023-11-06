@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- head section is used to specify info about the page or document itself -->
+		<meta charset="utf-8">
+		<!-- never leave empty and never skip it -->
+		<title>Canvas</title>
+		<!--
+		File name: canvas.html
+		Author: Ellen Bajcar
+		Date created: today's date
+		Date modified:
+		Version: 0.0
+		Description:
+			picture of a circle using canvas
+		-->
+<style>
+math {
+  direction: ltr;
+  writing-mode:  horizontal-tb;
+  text-indent: 0;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  font-family: math;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  display: inline math;
+  math-style: compact;
+  math-shift: normal;
+  math-level: 0;
+}
+math[display="block" i] {
+  display: block math;
+  math-style: normal;
+}
+math[display="inline" i] {
+  display: inline math;
+  math-style: compact;
+}
+</style>		
+	</head>
+	<body>
+		<!-- all marked up content goes in the body -->
+		<header>
+			<h1>MathML</h1>
+		</header>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="image.html">Image</a>
+			<a href="splitImage.html">SplitImage</a>
+			<a href="audio.html">Audio</a>
+			<a href="video.html">Video</a>
+			<a href="svg.html">SVG</a>
+			<a href="canvas.html">Canvas</a>
+			<a href="youtube.html">Youtube</a>
+			<a href="textFile.html">TextFile</a>
+			<a href="snippet.html">HtmlSnippet</a>
+		</nav>	
+<hr>        
+		<main>
+			<!-- https://www.w3.org/TR/mathml-core/ -->
+	<div>
+  This mathematical formula with a big summation and the number pi
+  <math display="block" style="border: 1px dotted orange;width: 25em;margin: 1em;">
+    <mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow>
+        <mrow><mo>+</mo><mn>∞</mn></mrow>
+      </munderover>
+      <mfrac>
+        <mn>1</mn>
+        <msup><mi>n</mi><mn>2</mn></msup>
+      </mfrac>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <msup><mi>π</mi><mn>2</mn></msup>
+      <mn>6</mn>
+    </mfrac>
+  </math>
+  is easy to prove.
+</div>
+        </main>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Example04_025</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+<h3>DL with DIVs to group DT and DD</h3>
+<!-- <dl>
+https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element
+In order to annotate groups with microdata attributes, or other global attributes that apply to whole groups, or just for styling purposes, each group in a dl element can be wrapped in a div element. This does not change the semantics of the dl element.
+-->
+<dl>
+ <div>
+  <dt> Last modified time </dt>
+  <dd> 2004-12-23T23:33Z </dd>
+ </div>
+ <div>
+  <dt> Recommended update interval </dt>
+  <dd> 60s </dd>
+ </div>
+ <div>
+  <dt> Authors </dt>
+  <dt> Editors </dt>
+  <dd> Robert Rothman </dd>
+  <dd> Daniel Jackson </dd>
+ </div>
+</dl>
+
+
+<hr>
+<!--
+https://html.spec.whatwg.org/multipage/microdata.html#microdata
+At a high level, microdata consists of a group of name-value pairs. The groups are called items, and each name-value pair is a property. Items and properties are represented by regular elements.
+
+To create an item, the itemscope attribute is used.
+
+To add a property to an item, the itemprop attribute is used on one of the item's descendants.
+-->
+<dl>
+ <div itemscope itemtype="http://schema.org/Product">
+  <dt itemprop="name">Café ou Chocolat Liégeois
+  <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+   <span itemprop="price">3.50</span>
+   <data itemprop="priceCurrency" value="EUR">€</data>
+  <dd itemprop="description">
+   2 boules Café ou Chocolat, 1 boule Vanille, sauce café ou chocolat, chantilly
+ </div>
+
+ <div itemscope itemtype="http://schema.org/Product">
+  <dt itemprop="name">Américaine
+  <dd itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+   <span itemprop="price">3.50</span>
+   <data itemprop="priceCurrency" value="EUR">€</data>
+  <dd itemprop="description">
+   1 boule Crème brûlée, 1 boule Vanille, 1 boule Caramel, chantilly
+ </div>
+</dl>
+</body>
+</html>
+
+

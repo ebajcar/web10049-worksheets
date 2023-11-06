@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- head section is used to specify info about the page or document itself -->
+		<meta charset="utf-8">
+		<!-- never leave empty and never skip it -->
+		<title>Canvas</title>
+		<!--
+		File name: canvas.html
+		Author: Ellen Bajcar
+		Date created: today's date
+		Date modified:
+		Version: 0.0
+		Description:
+			picture of a circle using canvas
+		-->		
+	</head>
+	<body>
+		<!-- all marked up content goes in the body -->
+		<header>
+			<h1>MathML</h1>
+		</header>
+		<nav>
+			<a href="../index.html">Home</a>
+			<a href="image.html">Image</a>
+			<a href="splitImage.html">SplitImage</a>
+			<a href="audio.html">Audio</a>
+			<a href="video.html">Video</a>
+			<a href="svg.html">SVG</a>
+			<a href="canvas.html">Canvas</a>
+			<a href="youtube.html">Youtube</a>
+			<a href="textFile.html">TextFile</a>
+			<a href="snippet.html">HtmlSnippet</a>
+		</nav>	
+<hr>        
+		<main>
+			<!-- https://www.w3.org/TR/mathml-core/ -->
+<svg style="font-size: 20px" width="400px" height="220px" viewBox="0 0 200 110">
+  <g transform="translate(10,80)">
+    <path d="M 0 0 L 150 0 A 75 75 0 0 0 0 0
+             M 30 0 L 30 -60 M 30 -10 L 40 -10 L 40 0"
+          fill="none" stroke="black"></path>
+    <text transform="translate(10,20)">1</text>
+    <switch transform="translate(35,-40)">
+      <foreignObject width="200" height="50"
+                     requiredExtensions="http://www.w3.org/1998/Math/MathML">
+        <math>
+          <msqrt>
+            <mn>2</mn>
+            <mi>r</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+          </msqrt>
+        </math>
+      </foreignObject>
+      <text>\sqrt{2r - 1}</text>
+    </switch>
+  </g>
+</svg>
+
+<p>
+  Fill the blank:
+  <math>
+    <msqrt>
+      <mn>2 *</mn>
+      <mtext><input onchange="..." size="2" type="text"></mtext>
+      <mo>−</mo>
+      <mn>1</mn>
+    </msqrt>
+    <mo>=</mo>
+    <mn>3</mn>
+  </math>
+</p>
+        </main>
+	</body>
+</html>

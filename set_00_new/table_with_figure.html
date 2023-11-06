@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Units</title>
+  <meta charset="utf-8">
+<!--
+Author: 		Ellen Bajcar, et al
+Version: 		2023.3.22
+Purpose: 		class examples for learning web development 
+Copyright: 
+    This work is the intellectual property of Sheridan College. 
+    Any further copying and distribution outside of class must be within 
+    the copyright law. Posting to commercial sites for profit is prohibited.
+Description:
+    explore tables, styling tables, figure and figure captions, 
+    accessibility for table caption and summary, using counters, styling HR
+-->
+
+<body>
+<header>
+  <h1>Global Attributes Table<br>
+  <small>Accessibility (caption, summary, figure, figcaption)</small>
+  </h1>
+</header>
+<hr class="dashed">
+  
+<!--
+https://www.w3.org/WAI/tutorials/tables/caption-summary/
+Captions and summaries provide information that can help users find, navigate, and understand tables. While they are not required in every case to meet WCAG, captions and summaries are fairly straightforward ways to provide such information that is often needed.
+Using the <figure> element to mark up a table summary
+Screen reader users navigating in “Tables Mode” are usually unable to identify a table by a caption applied like this. The caption part of the <figcaption> element can be explicitly associated to the table by using the aria-labelledby attribute and the summary part by using the aria-describedby attributes. Note that this could lead to the caption and summary being read out multiple times.
+
+HTML basics https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables
+
+validator.w3.org (March 2023)
+When a table element is the only content in a figure element other than the figcaption, the caption element should be omitted in favor of the figcaption.
+-->
+
+<p><strong>Always refer to tables and figures</strong> in a nearby paragraph&hellip; for example, <strong>FIGURE 1</strong> lists all global attributes that can be used with all HTML elements.</p>
+<figure>
+  <table aria-labelledby="globalattr-caption" aria-describedby="globalattr-summary">
+    <thead>
+        <tr><th>Attribute</th>	<th>Description</th></tr>    
+    </thead>
+    <tbody>
+        <tr>
+            <td>accesskey</td>		
+            <td>Specifies a shortcut key to activate/focus an element</td>	
+        </tr>
+        <tr>
+            <td>class</td> 	
+            <td>Specifies one or more classnames for an element (refers to a class in a style sheet)</td>
+        </tr>
+        <tr>
+            <td>contenteditable</td> 	
+            <td>Specifies whether the content of an element is editable or not</td>
+        </tr>
+        <tr>
+            <td>data-*</td> 	
+            <td>Used to store custom data private to the page or application</td>
+        </tr>
+        <tr>
+            <td>dir</td> 	
+            <td>Specifies the text direction for the content in an element</td>
+        </tr>
+        <tr>
+            <td>draggable</td> 	
+            <td>Specifies whether an element is draggable or not</td>
+        </tr>
+        <tr>
+            <td>hidden</td> 	
+            <td>Specifies that an element is not yet, or is no longer, relevant</td>
+        </tr>
+        <tr>
+            <td>id</td> 	
+            <td>Specifies a unique id for an element</td>
+        </tr>
+        <tr>
+            <td>lang</td> 	
+            <td>Specifies the language of the element's content</td>
+        </tr>    
+        <tr>
+            <td>spellcheck</td> 	
+            <td>Specifies whether the element is to have its spelling and grammar checked or not</td>
+        </tr>
+        <tr>
+            <td>style</td> 	
+            <td>Specifies an inline CSS style for an element</td>
+        </tr>
+        <tr>
+            <td>tabindex</td> 	
+            <td>Specifies the tabbing order of an element</td>
+        </tr>    
+        <tr>
+            <td>title</td> 	
+            <td>Specifies extra information about an element</td>
+        </tr>
+        <tr>
+            <td>translate</td> 	
+            <td>Specifies whether the content of an element should be translated or not</td>
+        </tr>          
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2"><strong>Footnotes</strong>: In addition to the global attributes that can be used on any HTML element, there are attributes that can be used only specific element; for example, the <code>start</code> attribute is available only for the element <code>&lt;ol></code> to specify the start value of an ordered list.
+            <br>For a full listing, see <a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">HTML Attribute Refence (w3schools)</a></td>
+        </tr>
+    </tfoot>
+  </table>
+  <figcaption>
+    <hr>
+    <strong id="globalattr-caption">FIGURE 1: List of Global Attributes</strong>
+    <br><span id="globalattr-summary">The global attributes are attributes that can be used with all HTML elements.</span>
+    <small>Source <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">https://www.w3schools.com/tags/ref_standardattributes.asp</a></small>
+  </figcaption>  
+</figure>
+
+<p>Other content of the document&hellip; During development, you may not have the actual content.  Use generators instead of copying a phrase or two repeatedly to get an accurate representation of the English text. Example: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet ex et sem ullamcorper hendrerit id eget tellus. Proin vehicula mattis ante, nec ultricies nisi gravida non. Suspendisse euismod id augue at varius. Integer ut placerat dui. Curabitur interdum, dui nec aliquet efficitur, dolor tortor fermentum sapien, sit amet ultricies sapien orci in erat. Nulla facilisi. Donec at orci varius, feugiat nulla vitae, dictum arcu. Sed et aliquet libero. Nam in arcu mauris. Sed vitae tincidunt metus. Phasellus sit amet commodo sapien. Quisque in sapien in felis mollis euismod interdum quis dui. From <a href="https://lipsum.com/">lipsum.com</a>.</p>
+
+
+
+<footer>
+  <hr>
+  <address>2021-2023 &copy; Ellen Bajcar et al, FAST, Sheridan College</address>
+  <p>The materials provided in class and in SLATE are protected by copyright. They are intended for the personal, educational uses of students in this course and should not be shared externally or on websites such as Course Hero or OneClass. Unauthorized distribution may result in copyright infringement and violation of Sheridan policies.</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>register property</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+/*
+ https://www.w3.org/TR/css-properties-values-api-1/#intro
+ https://drafts.css-houdini.org/css-properties-values-api/#dom-css-registerproperty 
+
+*/
+CSS.registerProperty({
+  name: "--my-font-size",
+  syntax: "<length>",
+  inherits: false.
+  initialValue: "0px"
+});
+CSS.registerProperty({
+  name: "--stop-color",
+  syntax: "<color>",
+  inherits: false,
+  initialValue: "rgba(0,0,0,0)"
+});
+</script>
+<style>
+p {
+  --my-font-size: 10em;
+  font-size: var(--my-font-size);
+}
+.button {
+  --stop-color: red;
+  color: white;
+  background: linear-gradient(var(--stop-color), black);
+  transition: --stop-color 1s;
+}
+
+.button:hover {
+  --stop-color: green;
+}
+</style>
+</head>
+<body>
+    <p>Lorem ipsum...</p>
+    <p class="button">My button</p>
+</body>
+</html>
